@@ -6,7 +6,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
   <meta name="theme-color" content="#020817" />
-  <title>Allowance Tracker</title>
+  <title>Money Abundance - 30-Days Mind Hack</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Sora:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet" />
@@ -546,8 +546,8 @@
 
 <div id="app-header">
   <div class="app-title-row">
-    <span class="app-title">Allowance</span>
-    <span class="app-badge">30-Day Tracker</span>
+    <span class="app-title">Money Abundance</span>
+    <span class="app-badge">30-Days Mind Hack</span>
     <div style="margin-left:auto;display:flex;gap:8px;align-items:center">
       <button class="io-btn import-btn" onclick="triggerImport()" title="Import data">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
@@ -910,20 +910,20 @@ function exportData() {
     entries: data
   };
   const json = JSON.stringify(payload, null, 2);
-  const filename = `allowance-tracker-${new Date().toISOString().slice(0,10)}.json`;
+  const filename = `money-abundance-${new Date().toISOString().slice(0,10)}.json`;
 
   // Try native share sheet first (best on mobile)
   if (navigator.share && navigator.canShare) {
     const file = new File([json], filename, { type: 'application/json' });
     if (navigator.canShare({ files: [file] })) {
-      navigator.share({ files: [file], title: 'Allowance Tracker Export' })
+      navigator.share({ files: [file], title: 'Money Abundance Export' })
         .catch(err => { if (err.name !== 'AbortError') fallbackDownload(json, filename); });
       return;
     }
   }
   // Fallback: share text if file share not supported
   if (navigator.share) {
-    navigator.share({ title: 'Allowance Tracker Export', text: json })
+    navigator.share({ title: 'Money Abundance Export', text: json })
       .catch(err => { if (err.name !== 'AbortError') fallbackDownload(json, filename); });
     return;
   }
