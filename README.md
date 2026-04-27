@@ -10,12 +10,12 @@ A completely private, offline-capable web app for playing **The Prosperity Game*
 
 The Prosperity Game is a mindset exercise that went viral on Threads. The mechanics are deceptively simple:
 
-- **Day 1:** Mentally spend exactly $1,000 CAD
-- **Day 2:** Mentally spend exactly $2,000 CAD
-- **Day 3:** $3,000 CAD… and so on
+- **Day 1:** Mentally spend exactly $1,000
+- **Day 2:** Mentally spend exactly $2,000
+- **Day 3:** $3,000… and so on
 - **Day 30:** You have to figure out how to spend $30,000 in a single day
 
-Over the full 30 days, you simulate spending a total of **$465,000 CAD**.
+Over the full 30 days, you simulate spending a total of **$465,000**.
 
 **The catch?** You have to *actually spend it* in your imagination — no high-yield savings, no index funds, and you cannot repeat purchases. You can't just buy 15 MacBooks on Day 15 to clear your balance. You must research and imagine a real, evolving lifestyle every single day.
 
@@ -25,7 +25,7 @@ That's where the mindset shift happens. When you're stuck trying to find $18,000
 
 ## 🎮 How to Play
 
-1. **Open Day 1.** You have an allowance of $1,000 CAD. Enter what you'd "buy" (e.g. *Spa day* — $400, *Designer sneakers* — $600) and hit **+ Add**.
+1. **Open Day 1.** You have an allowance of $1,000. Enter what you'd "buy" (e.g. *Spa day* — $400, *Designer sneakers* — $600) and hit **+ Add**.
 2. **Aim for $0.** The balance badge at the bottom changes colour to signal your status:
    - 🟡 **Yellow** — you still have money left to spend
    - 🟢 **Green** — perfectly balanced at exactly $0 (the goal!)
@@ -34,7 +34,7 @@ That's where the mindset shift happens. When you're stuck trying to find $18,000
 4. **Check your progress** on the **Σ Summary** tab to see your total allowance, total spent, and net balance across all days.
 5. **Explore your patterns** on the **✦ Insights** tab — search entries, view a daily spending chart, and see a breakdown by spending category.
 
-If you zero out all 30 days, you will have successfully simulated spending **$465,000 CAD** in one month. 🎉
+If you zero out all 30 days, you will have successfully simulated spending **$465,000** in one month. 🎉
 
 ---
 
