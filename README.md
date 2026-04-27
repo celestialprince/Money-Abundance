@@ -17,7 +17,7 @@ The Prosperity Game is a mindset exercise that went viral on Threads. The mechan
 
 Over the full 30 days, you simulate spending a total of **$465,000 CAD**.
 
-**The catch?** You have to *actually spend it* in your imagination — no high-yield savings, no index funds, no paying off debt. And you cannot repeat purchases. You can't just buy 15 MacBooks on Day 15 to clear your balance. You must research and imagine a real, evolving lifestyle every single day.
+**The catch?** You have to *actually spend it* in your imagination — no high-yield savings, no index funds, and you cannot repeat purchases. You can't just buy 15 MacBooks on Day 15 to clear your balance. You must research and imagine a real, evolving lifestyle every single day.
 
 That's where the mindset shift happens. When you're stuck trying to find $18,000 worth of genuinely new things to buy, you start to realise how deeply programmed your brain is to *not* want things.
 
